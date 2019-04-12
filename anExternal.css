@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    overflow: auto;
+}
+img:not(.art){
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 10px;
+}
+div:not(.center):not(.container) {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 30px;
+}
+.comic-sans {
+    font-family: cursive;
+}
+
+.art {
+    margin: 20px;
+    border-radius: 15px;
+}
+.container {
+    position: relative;
+}
+.center {
+    color: black;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow:
+		-1px -1px 0 grey,
+		1px -1px 0 grey,
+		-1px 1px 0 grey,
+		1px 1px 0 grey;
+}
